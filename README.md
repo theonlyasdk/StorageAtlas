@@ -1,6 +1,6 @@
 # Storage Atlas
 
-Scan a folder or drive and explore its largest files and folders in an interactive, offline storage map. The Python launcher opens a native folder picker; the generated HTML report opens automatically in your default browser. No data is uploaded.
+Scan a folder or drive and explore it as an interactive, offline storage galaxy. Each item is a cube: its volume is proportional to its logical size, so the largest objects stand out. The Python launcher opens a native folder picker; the generated HTML report opens automatically in your default browser. No data is uploaded.
 
 ## Run
 
@@ -10,7 +10,7 @@ Install Python 3.9 or newer, including Tkinter (on some Linux distributions, ins
 python storage_atlas.py
 ```
 
-Choose a drive or folder, then click **Scan and open map**. The report is saved as `StorageAtlas-report.html` in your home directory; subsequent scans overwrite it. Click folders in the map or list to explore, and use the filter to find an item in the current folder.
+Choose a drive or folder, then click **Scan and open map**. The report is saved as `StorageAtlas-report.html` in your home directory; subsequent scans overwrite it. Click a folder cube to enter it. Right-click or press Backspace to go back, and scroll or use Page Up/Page Down to see more objects. Arrow keys select objects and Enter opens a folder. Items are shown largest first, 40 per page. The tiny marker for an empty item is an exception to proportional sizing; very small cubes can be selected with the keyboard. Reduced-motion preferences disable the travel and star animations.
 
 For command-line use:
 
