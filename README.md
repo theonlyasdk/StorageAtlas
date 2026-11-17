@@ -12,6 +12,8 @@ python storage_atlas.py
 
 Choose a drive or folder, then click **Scan and open map**. The report is saved as `StorageAtlas-report.html` in your home directory; subsequent scans overwrite it. Click a folder cube to enter it. Right-click or press Backspace to go back, and scroll or use Page Up/Page Down to see more objects. Arrow keys select objects and Enter opens a folder. Items are shown largest first, 40 per page. The tiny marker for an empty item is an exception to proportional sizing; very small cubes can be selected with the keyboard. Reduced-motion preferences disable the travel and star animations.
 
+The dark launcher shows live file and inaccessible-item counts, elapsed time, and an activity indicator. The indicator does not estimate a percentage because the number of files is unknown until the scan finishes. It uses an available system font, so no font download is required.
+
 For command-line use:
 
 ```sh
